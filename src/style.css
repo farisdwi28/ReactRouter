@@ -1,0 +1,97 @@
+.title {
+    font-size: 70pt
+}
+
+.nav.navbar-nav {
+    display: flex;
+    padding-right: 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:whitesmoke;
+    text-decoration-color: black ;
+}
+
+@media (min-width: 800px) {
+    .navbar-nav {
+        float: none;
+    }
+}
+
+.navbar.navbar-default-pills {
+    background-color: whitesmoke;
+    
+}
+
+.d-block {
+    width: 100%;
+    margin-top: -20px;
+}
+
+.Judul1 {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.judul2 {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.judul3 {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pertama{
+    background-color: snow;
+}
+
+.slide{
+    position: absolute;
+    left: -600px;
+    width: 600px;
+    height: 370px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.3s forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.slide2{
+    position: absolute;
+    right: -700px;
+    width: 560px;
+    height: 360px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.3s forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes slide2 {
+    100% { right: 0; }
+}
+
+@keyframes slide2 {
+    100% { right: 0; }
+}
+.bawah {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-top: 0px;
+}
+.main-image{
+    position: relative;
+    overflow: hidden;
+    width: 560px;
+    height: 360px; 
+}
